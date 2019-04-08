@@ -1,0 +1,43 @@
+{
+  "name": "igtrading",
+  "version": "1.0.0",
+  "description": "Trading bot for IG Trading Platform",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pcollinsTech/igtrading.git"
+  },
+  "author": "Phil Collins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pcollinsTech/igtrading/issues"
+  },
+  "homepage": "https://github.com/pcollinsTech/igtrading#readme",
+  "dependencies": {
+    "arraylist": "^0.1.0",
+    "async": "^2.6.0",
+    "b64url": "^1.0.3",
+    "body-parser": "~1.18.2",
+    "bootbot": "^1.0.14",
+    "cookie-parser": "~1.4.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "dialogflow": "^0.6.0",
+    "dotenv": "^5.0.0",
+    "express": "~4.15.5",
+    "google-libphonenumber": "^3.1.15",
+    "ig-api": "^0.15.0",
+    "jsdom": "^12.0.0",
+    "moment": "^2.22.2",
+    "moment-holiday": "^1.5.1",
+    "morgan": "~1.9.0",
+    "request": "^2.87.0",
+    "sequelize": "^4.38.0",
+    "serve-favicon": "~2.4.5",
+    "twig": "~0.10.3",
+    "validator": "^10.8.0"
+  }
+}
